@@ -1,7 +1,10 @@
 function greetFriend(name) {
   // Insert code here;
-  return "Hello, " + name + "!";
+  let myString = "Hello, " + name + "!";
+  //return "Hello, " + name + "!";
+  return myString;
 }
+console.log(greetFriend("Albert"));
 
 // Do not edit this line;
 module.exports = greetFriend;
